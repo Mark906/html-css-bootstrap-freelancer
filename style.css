@@ -1,0 +1,85 @@
+.navbar {
+
+    border: none;
+    border-radius: 0;
+
+}
+
+.navbar-default {
+
+    background-color: #2C3E50;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 700;
+
+}
+
+.navbar-default .navbar-brand {
+
+    color: #FFFFFF;
+    font-size: 28px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+
+    color: #1BBC9C;
+
+}
+
+.navbar-default .navbar-brand:hover {
+
+    color: #FFFFFF;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+
+    background-color: #FFFFFF;
+
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus {
+
+    background-color: #1CBC9C;
+    border-color: #1CBC9C;
+
+}
+
+.navbar-default .navbar-toggle:hover {
+
+    background-color: #148f77;
+
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+
+    color: #FFFFFF;
+    background-color: transparent;
+
+}
+
+.burgher {
+
+    padding-top: 4px;
+    padding-left: 2px;
+    float: right;
+
+}
+
+.menu {
+
+    text-transform: uppercase;
+    color: white;
+    padding-top: 1px;
+    padding-right: 4px;
+    float: left;
+
+}
