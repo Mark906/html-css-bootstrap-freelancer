@@ -1,7 +1,14 @@
+.container {
+
+    text-align: center;
+
+}
+
 .navbar {
 
     border: none;
     border-radius: 0;
+    margin-bottom: 0;
 
 }
 
@@ -81,5 +88,108 @@
     padding-top: 1px;
     padding-right: 4px;
     float: left;
+
+}
+
+main {
+    padding-top: 100px;
+}
+
+section {
+
+    padding: 100px 0;
+    background-color: #1CBC9C;
+
+}
+
+
+.start img {
+
+    max-width: 240px;
+
+}
+
+.text-start {
+
+    color: white;
+    font-size: 64px;
+
+}
+
+.custom-line i {
+    color: white;
+    font-size: 30px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.custom-line::before,
+.custom-line::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+#opposite {
+
+    background-color: white;
+    color: #2C3E50;
+
+}
+
+#opposite .custom-line::before, #opposite .custom-line::after{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: #2C3E50;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+.portfolio img {
+
+    max-width: 100%;
+    margin-bottom: 8%;
+
+}
+
+.portfolio h2 {
+
+    font-size: 48px;
+
+}
+
+.wrapper {
+
+    margin-top: 35px;
+
+}
+
+.wrapper::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:780px) {
+
+    .navbar-default .navbar-brand {
+
+        color: #FFFFFF;
+        font-size: 18px;
+        padding-top: 20px;
+
+    }
+
+    .text-start {
+
+        font-size: 40px;
+
+    }
 
 }
