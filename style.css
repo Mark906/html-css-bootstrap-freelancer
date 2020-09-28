@@ -249,6 +249,13 @@ section {
 
 }
 
+.btn-contact:hover {
+
+    background-color: #159a80;
+    color: white;
+
+}
+
 @media screen and (max-width:780px) {
 
     .navbar-default .navbar-brand {
