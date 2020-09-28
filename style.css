@@ -215,6 +215,30 @@ section {
 
 }
 
+.contact h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.form-control {
+
+    height: 80px;
+    font-size: 23px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #e9ecef;
+    border-radius: 0px;
+    margin-bottom: 20px;
+
+}
+
+.form-control:focus {
+
+    border-color: #e9ecef;
+    box-shadow: none;
+
+}
+
 @media screen and (max-width:780px) {
 
     .navbar-default .navbar-brand {
