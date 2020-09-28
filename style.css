@@ -97,7 +97,7 @@ main {
 
 section {
 
-    padding: 100px 0;
+    padding: 85px 0;
     background-color: #1CBC9C;
 
 }
@@ -107,6 +107,13 @@ section {
 
     max-width: 240px;
 
+}
+
+.start p {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
 }
 
 .text-start {
@@ -155,7 +162,7 @@ section {
 .portfolio img {
 
     max-width: 100%;
-    margin-bottom: 8%;
+    margin-bottom: 30px;
 
 }
 
@@ -166,16 +173,46 @@ section {
 
 }
 
-.wrapper {
 
-    margin-top: 35px;
+.title-customline {
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.about p {
+
+    font-size: 20px;
+    color: white;
 
 }
 
-.wrapper::after {
-    content: '';
-    display: table;
-    clear: both;
+.btn-default {
+
+    margin-top: 30px;
+    color: white;
+    background-color: transparent;
+
+}
+
+
+.btn {
+
+    border: 2px solid white;
+    padding: 13px 24px;
+    font-size: 20px;
+
+}
+
+.btn:hover {
+
+    color: #212529;
+    background-color: white;
+
 }
 
 @media screen and (max-width:780px) {
